@@ -1,0 +1,22 @@
+{
+  "name": "vacation_problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vacation.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bednayb/vacation_problem.git"
+  },
+  "author": "Bence Bednay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bednayb/vacation_problem/issues"
+  },
+  "homepage": "https://github.com/bednayb/vacation_problem#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
