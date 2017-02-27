@@ -30,3 +30,9 @@ test('x with no rules result x', function (t) {
   t.deepEqual(vacation(['x','y','z'],[['y','x'], ['z','x'],['z','y']]),['z','y','x']);
   t.end();
 })
+
+// Use a destination more than one
+test('x with no rules result x', function (t) {
+  t.equal(vacation(['x','y','z','x'],[]),"Use every destinations just once");
+  t.end();
+})
